@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face{
+    font-family: 'poppins';
+    src: url('./Poppins/Poppins-Light.ttf')format('truetype');
+
+}
+
+@font-face{
+    font-family:'Poppins-Medium';
+    src: url('./Poppins/Poppins-Medium.ttf');
+}
+
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    filter: brightness(60%);
+}
+
+.wrapper1 {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.card {
+    width: 500px;
+    height: 680px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.heding {
+    width: 100%;
+    height: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heding>h1 {
+    margin-top: 22px;
+    color: #1b245b;
+    font-size: 40px;
+    transform: translateY(25px);
+}
+
+.pattern{
+    margin-left: 87px;
+    width: 65%;
+    padding-bottom: 24px;
+    transform: translateY(20px);
+}
+
+.form {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.input {
+    width: 83%;
+    height: 72px;
+    border: 2px solid #22708d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    transform: translateY(20px);
+    
+}
+
+.check {
+    width: 90%;
+    height: 27px;
+    font-family: 'poppins';
+    font-size: 17px;
+    transform: translateY(26px);
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.checkcolor{
+    color: #006184;
+    
+}
+
+.btn {
+    width: 88%;
+    height: 78px;
+    margin-top: 20px;
+    border: 0;
+    color: rgb(246, 241, 241);
+    border-radius: 5px;
+    background: rgb(15,96,130);
+background: linear-gradient(90deg, rgba(15,96,130,1) 19%, rgba(14,41,84,1) 56%);
+    transform: translateY(38px); 
+    font-size: 19px;
+}
+
+.bottom{
+    font-family:'Poppins-Medium';
+    transform: translateX(0px) translateY(48px);
+    font-size: 17px;
+    font-weight: 500;
+    
+    
+}
+.loginnow{
+    text-decoration: none;
+    color: #006184;
+
+}
+
